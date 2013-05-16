@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Example">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Example</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        <div id='receptor'></div>
+        <script src="jquery-2.0.0.min.js"></script>
+        <script type="text/javascript">
+        	$(document).ready(function() {
+        		$.get('hola.html',function(data){
+        			console.log(data);
+        			$('#receptor').html(data);
+        		});
+        	});
+        </script>
+    </body>
+</html>

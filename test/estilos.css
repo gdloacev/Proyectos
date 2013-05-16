@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+
+body,html{
+	font-family: Myriad Pro,Arial;
+	background: #111a29;
+	color: #FFF;
+}
+
+#main
+{
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+}
+
+#main h1
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+::selection{
+	background: #e04c22;
+	color: #FFF;
+}
+
+form
+{
+	display: block;
+	width: 100%;
+}
+
+input,textarea
+{
+	font-family: Myriad Pro,Arial;
+	color: #FFF;
+	border: 0;
+	outline: 0;
+	background: #1f61ad;
+	border-radius: 1px;
+	font-size: 20px;
+	margin: 10px auto;
+	width: 95%;
+	display: block;
+	max-height: 100px;
+}
+
+textarea
+{
+	max-width: 95%;
+	height:100px;
+}
+
+input[type=submit]
+{
+	display: inline-block;
+	vertical-align: middle;
+	height: 25px;
+	width: 80%;
+	cursor: pointer;
+}
+
+#status
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}

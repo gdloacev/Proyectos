@@ -1,0 +1,45 @@
+body {
+	background: #86ba40;
+	font-family: 'Happy Monkey', cursive;
+	font-size: 1em;
+	padding: 1.5em 0;
+}
+
+footer{
+	color: #FFF;
+	font-size: 0.8em;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+header h1, header p{
+	display: inline-block;
+	font-size: 2em;
+}
+
+header img{
+	border-radius: 0.4em;
+	height: 4em;
+	width: 4em;
+}
+
+#main {
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 0.4em;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	margin: 0 auto;
+	max-width: 480px;
+	padding: 1em;
+}
+
+#todo-boton {
+	padding: 5px;
+}
+
+#todo-input{
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	padding: 5px;
+	width: 70%;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Geo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Geo Example</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        <script type="text/javascript">
+        	navigator.geolocation.getCurrentPosition(myPositionCallbackFunction,
+                                         myPositionErrorCallbackFunction,
+                                         {enableHighAccuracy: true, timeout: 5000} );
+        	function myPositionCallbackFunction(position) {
+		        var latitude  = position.coords.latitude;
+		        var longitude = position.coords.longitude;
+		        console.log(latitude + "," + longitude);
+			}
+			function myPositionErrorCallbackFunction(error){
+				alert(error.message);
+			}
+        </script>
+    </body>
+</html>

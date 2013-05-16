@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Example">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Example</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        <input type="file" id="theBinaryFile" onchange="onLoadBinaryFile()">
+        <textarea id="theText" cols="40" rows="30"></textarea>
+        <img id="theImage">
+        <script type="text/javascript">
+        	function onLoadBinaryFile(){
+        		var fileElem = document.getElementById("theBinaryFile");
+        		if (fileElem.files.length != 0){
+        			reader = new FileReader();
+        			reader.onload = function(e){
+        				if (fileElem.files[0].type.match(/image.*/)){
+        					var img = document.getElementById("theImage");
+        					img.src = e.target.result;
+        				} else {
+        					var text = document.getElementById("theText");
+        					text.value = e.target.result;
+        				};
+        			};
+        			reader.onerror = function(e){
+        				alert("Error");
+        			};
+        			if(fileElem.files[0].type.match(/image.*/)){
+        				reader.readAsDataURL(fileElem.files[0]);
+        			} else {
+        				reader.readAsText(fileElem.files[0]);
+        			};
+        		} else {
+        			alert("Please select a image/text.");
+        		}
+        	}
+        </script>
+    </body>
+</html>
