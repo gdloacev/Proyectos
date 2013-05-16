@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name=description content="Test Audio"/>
+        <meta name=viewport content="width=device-width, initial-scale=1"/>
+        <title>Test Audio</title>
+        <link rel=stylesheet href="estilos.css">
+        <link rel=author href="humans.txt"/>
+		<script type="text/javascript">
+		       function playPause() {
+		       var song = document.getElementsByTagName('audio')[0];
+		       if (song.paused)
+		           song.play();
+		       else
+		           song.pause();
+		       }
+		</script>
+    </head>
+    <body>
+    <div class="thumbnail" id="paparazzixxx">
+        <a href="javascript:playPause();">
+            <img id="play" src="logo.png" />
+        </a>
+        <audio id="paparazzi">
+            <source src="CARHORN.mp3" type="audio/mpeg" />
+            Your browser does not support HTML5 audio.
+        </audio>
+    </div>
+        <script src="jquery.js"></script>
+    </body>
+</html>

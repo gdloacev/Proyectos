@@ -1,0 +1,637 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chan",
+				"changePage"
+			],
+			[
+				"click",
+				"click()"
+			],
+			[
+				"doctype",
+				"doctype	HTML - HTML foundation"
+			],
+			[
+				"express",
+				"express	Default"
+			],
+			[
+				"for",
+				"foreach()	Array"
+			],
+			[
+				"mensa",
+				"mensajes"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"txt",
+				"text-align"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"ll",
+				"llanta2.png	w:328 h:310"
+			],
+			[
+				"ro",
+				"rotate()	Canvas 2"
+			],
+			[
+				"lo",
+				"log()	Math"
+			],
+			[
+				"cambiar",
+				"cambiarTecho"
+			],
+			[
+				"techo",
+				"techoact"
+			],
+			[
+				"llanta",
+				"llantaact	Default"
+			],
+			[
+				"nue",
+				"nuevoTecho"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"current",
+				"currentTarget	Event"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"trans",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"persona",
+				"personalizacion"
+			],
+			[
+				"te",
+				"techo2.png	w:260 h:109"
+			],
+			[
+				"css",
+				"cssCambios"
+			],
+			[
+				"his",
+				"historia"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"hi",
+				"historia"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"script",
+				"script	HTML - Script"
+			],
+			[
+				"padd",
+				"padding	css"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"pre",
+				"prefixfree.min.js"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fk",
+				"fkcurso"
+			],
+			[
+				"video",
+				"video	<video>"
+			],
+			[
+				"Curso",
+				"CursoDetalle"
+			],
+			[
+				"Tu",
+				"TutorialAdmin"
+			],
+			[
+				"Tuto",
+				"TutorialDetalle"
+			],
+			[
+				"CursoD",
+				"CursoDetalleAdmin"
+			],
+			[
+				"rec",
+				"recibirMensaje"
+			],
+			[
+				"nom",
+				"nombreDesdeServidor"
+			],
+			[
+				"http",
+				"http://localhost:6969/socket"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"body",
+				"body"
+			],
+			[
+				"style",
+				"style	<style>"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"label",
+				"label	<label>"
+			],
+			[
+				"expre",
+				"express	Default"
+			],
+			[
+				"lorem",
+				"lorem	HTML - Lorem Ipsum"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"Model",
+				"ModelForm	ModelForm"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"Todo",
+				"TodoArticulo"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"FFF",
+				"FFFFFF"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax java",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"syntax jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"syntax dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"bootstrap car",
+				"Snippet: Bootstrap carousel"
+			],
+			[
+				"Snippet: bootstrap flu",
+				"Snippet: Bootstrap fluid layout"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"bootstrap form",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"bootstrap grid",
+				"Snippet: Bootstrap basic three column grid"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: html5",
+				"Snippet: HTML - HTML5 shiv"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: bootstrap f",
+				"Snippet: Bootstrap fluid layout"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/phonegap/index.html",
+		"/D/users/gdloacev/workspace/MyFirstApp/assets/www/index.html",
+		"/D/users/gdloacev/workspace/MyFirstApp/assets/www/index - Copy.html",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/User/View In Browser.sublime-settings",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/View In Browser/View In Browser.sublime-settings",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/templates/base.html",
+		"/D/users/gdloacev/Downloads/cursophonegap/MejorandoGram/assets/www/index.html",
+		"/D/users/gdloacev/workspace/MyFirstApp/assets/www/cordova-2.5.0.js",
+		"/D/users/gdloacev/Documents/Phonegap/mypage.html",
+		"/D/users/gdloacev/Documents/Node.js/mejorandola/server.js",
+		"/D/users/gdloacev/Documents/Node.js/mejorandola/views/index.html",
+		"/D/users/gdloacev/Documents/Node.js/mejorandola/public/main.js",
+		"/D/users/gdloacev/Documents/Node.js/mejorandola/public/grid.js",
+		"/D/users/gdloacev/Documents/Node.js/mejorandola/package.json",
+		"/D/users/gdloacev/Documents/MejorandoCurso/mejorandocurso_semana_1.sublime-project",
+		"/D/users/gdloacev/Documents/Node.js/serverexpress.js",
+		"/D/users/gdloacev/Documents/Node.js/server.js",
+		"/C/xampp/htdocs/curso/index.html",
+		"/C/xampp/htdocs/curso/codigito.js",
+		"/C/xampp/htdocs/curso/estilos.css",
+		"/C/xampp/htdocs/curso/test.html",
+		"/C/xampp/htdocs/mejorandocurso/index.html",
+		"/C/xampp/htdocs/mejorandocurso/estilos.css",
+		"/C/xampp/htdocs/mejorandocurso/codiguito.js",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/tutorial/views.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/templates/ver.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/templates/ver,html.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/templates/index.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/templates/base.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/tutorial/models.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/templates/tutorial/live.html",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/Highlight Whitespaces/highlight_whitespaces.sublime-settings",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/tutorial/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/tutoriales/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/tutorial/admin.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/tutoriales/tutoriales/settings.py",
+		"/D/users/gdloacev/Downloads/tutoChat/app.js",
+		"/D/users/gdloacev/Downloads/tutoChat/IMPORTANTE.txt",
+		"/D/users/gdloacev/Documents/Node.js/mejorandola/index.html",
+		"/D/users/gdloacev/Downloads/codejobs/contactame.html",
+		"/D/users/gdloacev/Downloads/codejobs/css/bootstrap-responsive.css",
+		"/D/users/gdloacev/Downloads/codejobs/css/bootstrap.css",
+		"/D/users/gdloacev/Downloads/codejobs/tablas.html",
+		"/D/users/gdloacev/Downloads/codejobs/test.html",
+		"/D/users/gdloacev/Downloads/codejobs/js/bootstrap.js",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/BracketHighlighter/Default (Windows).sublime-keymap",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/User/BracketHighlighter.sublime-settings",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/D/files/Backup/documentos/Sublime Text 2.0.1 x64/Data/Packages/Emmet/Emmet.sublime-settings",
+		"/D/users/gdloacev/Documents/DjangoWebs/productlist/templates/index.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/productlist/product/views.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/productlist/product/forms.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/productlist/product/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/productlist/productlist/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/productlist/templates/product/view.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todo/admin.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/templates/index.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todo/views.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todo/forms.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todo/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/templates/todo/ver.html",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todolist/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/templates/todo/urls.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todo/models.py",
+		"/D/users/gdloacev/Documents/DjangoWebs/todolist/todolist/settings.py",
+		"/D/users/gdloacev/Documents/GitHub/proyectos/README",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/catalog/language/spanish/checkout/voucher.php",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/catalog/view/theme/default/template/checkout/voucher.tpl",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/catalog/view/theme/default/template/common/header.tpl",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/catalog/view/theme/default/template/common/home.tpl",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/catalog/view/theme/default/stylesheet/stylesheet.css",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/catalog/view/theme/default/stylesheet/ie7.css",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/admin/view/stylesheet/stylesheet.css",
+		"/D/Disco/sitios/dayna.mx/css/loginstyle.css",
+		"/D/Disco/sitios/dayna.mx/styles/style.css",
+		"/D/Disco/sitios/dayna.mx/login.php",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/admin/controller/design/layout.php",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/admin/controller/common/home.php",
+		"/D/Disco/sitios/dayna.mx_tienda/tienda/index.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"chrome",
+			"x",
+			"block",
+			" %}",
+			")",
+			"btn ",
+			"btn",
+			"btn-p",
+			"btn ",
+			"btn",
+			"btn ",
+			"btn  ",
+			"table",
+			"carousel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 29.0
+	},
+	"output.git":
+	{
+		"height": 47.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 136.0,
+	"status_bar_visible": true
+}

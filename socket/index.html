@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sockets</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<h1>Latinchat</h1>
+	<section>
+		<h2>Cual es tu mensaje?</h2>
+		<form action="#">
+			<textarea name="mensajes" id="mensajes" cols="50" rows="10" readonly></textarea>
+			<input type="text" placeholder="Escribe aqui tu mensaje" autofocus required/>
+			<button>Enviar</button>
+		</form>
+	</section>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+	<script>
+		var socket;
+		$(document).on("ready",inicio);
+		function inicio(){
+			if (window.WebSocket){
+				socket = io.connect('http://localhost:3000');
+				socket.on("receipt message", recibirMensaje);
+				$("section form").on("submit",enviarMensaje);
+			} else {
+				alert("No soporto Sockets");
+			}
+		}
+		function enviarMensaje(e){
+			e.preventDefault();
+			console.log('Enviar: ' + $("section input").val());
+			socket.emit("send message",'@gdloacev',$("section input").val());
+		}
+		function recibirMensaje(from, msg){
+			console.log(msg);
+			//console.log($("section textarea").val());
+			if ($("section textarea").val() !== "")
+			{
+				$("section textarea").val($("section textarea").val() + '\n' + from + ': ' + msg);
+			} else {
+				$("section textarea").val(from + ': ' + msg);
+			}
+			$("section input").val("");
+			$("section input").fadeOut;
+		}
+	</script>
+</body>
+</html>
