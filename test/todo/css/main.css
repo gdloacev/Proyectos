@@ -1,7 +1,8 @@
 body {
 	background: #86ba40;
 	font-family: 'Happy Monkey', cursive;
-	font-size: 1em;
+	font-size: 16px;
+	height: 55em;
 	padding: 1.5em 0;
 }
 

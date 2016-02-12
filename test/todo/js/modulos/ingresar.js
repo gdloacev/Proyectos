@@ -40,8 +40,8 @@ define(['core/sandbox'],function(sandbox){
 			li.innerHTML = '<a id="' + value + '" href="">' + value + '</a>';
 			this.lista.insertBefore(li, this.lista.firstChild);
 			this.element = document.getElementById(value);
-			this.element.onclick = function(){
-				that.eliminarTodo(that.input.value);
+			this.element.onclick = function(e){
+				that.eliminarTodo(e.target.id);
 			};
 			this.sandbox.emit('nuevo-todo');
 		},
@@ -52,7 +52,7 @@ define(['core/sandbox'],function(sandbox){
 		},
 		eliminarTodo: function (value){
 			console.log(value);
-			this.localStorage.removeKey(value);
+			this.localStorage.removeItem(value);
 		}
 	};
 });
